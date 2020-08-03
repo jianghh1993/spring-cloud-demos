@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro-eureka-client" />
+        <module name="pro-ribbon-client-user-service" />
+        <module name="ribbon-order-service" />
+        <module name="pro-config-client" />
+        <module name="config" />
+        <module name="ribbon-user-service" />
+        <module name="ribbon-eureka" />
+        <module name="pro-config-server" />
+        <module name="ribbon" />
+        <module name="pro-ribbon-eureka-client-order-service" />
+        <module name="pro-eureka-server" />
+        <module name="pro-ribbon-eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.7" />
+      <module name="eureka" target="1.7" />
+      <module name="pro-config-client" target="1.8" />
+      <module name="pro-config-server" target="1.8" />
+      <module name="pro-eureka-client" target="1.8" />
+      <module name="pro-eureka-server" target="1.8" />
+      <module name="pro-ribbon-client-user-service" target="1.8" />
+      <module name="pro-ribbon-eureka-client-order-service" target="1.8" />
+      <module name="pro-ribbon-eureka-server" target="1.8" />
+      <module name="program-eureka" target="1.8" />
+      <module name="program-eureka-server" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="ribbon-eureka" target="1.7" />
+      <module name="ribbon-order-service" target="1.8" />
+      <module name="ribbon-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pro-config-client" options="-parameters" />
+      <module name="pro-config-server" options="-parameters" />
+      <module name="pro-eureka-client" options="-parameters" />
+      <module name="pro-eureka-server" options="-parameters" />
+      <module name="pro-ribbon-client-user-service" options="-parameters" />
+      <module name="pro-ribbon-eureka-client-order-service" options="-parameters" />
+      <module name="pro-ribbon-eureka-server" options="-parameters" />
+      <module name="program-eureka-server" options="-parameters" />
+      <module name="ribbon" options="" />
+      <module name="ribbon-order-service" options="-parameters" />
+      <module name="ribbon-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

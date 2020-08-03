@@ -1,0 +1,12 @@
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://peer1:8080/eureka/
+server:
+  port: 9090
+spring:
+  application:
+    name: pro-eureka-client
+name: xxx

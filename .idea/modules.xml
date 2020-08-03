@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/pro-config-client/pro-config-client.iml" filepath="$PROJECT_DIR$/config/pro-config-client/pro-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/pro-config-server/pro-config-server.iml" filepath="$PROJECT_DIR$/config/pro-config-server/pro-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/pro-eureka-client/pro-eureka-client.iml" filepath="$PROJECT_DIR$/eureka/pro-eureka-client/pro-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/pro-eureka-server/pro-eureka-server.iml" filepath="$PROJECT_DIR$/eureka/pro-eureka-server/pro-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-client-user-service/pro-ribbon-client-user-service.iml" filepath="$PROJECT_DIR$/ribbon-eureka/pro-ribbon-client-user-service/pro-ribbon-client-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-client-order-service/pro-ribbon-eureka-client-order-service.iml" filepath="$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-client-order-service/pro-ribbon-eureka-client-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-server/pro-ribbon-eureka-server.iml" filepath="$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-server/pro-ribbon-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/program-eureka.iml" filepath="$PROJECT_DIR$/eureka/program-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-eureka/ribbon-eureka.iml" filepath="$PROJECT_DIR$/ribbon-eureka/ribbon-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon-order-service/ribbon-order-service.iml" filepath="$PROJECT_DIR$/ribbon/ribbon-order-service/ribbon-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon-user-service/ribbon-user-service.iml" filepath="$PROJECT_DIR$/ribbon/ribbon-user-service/ribbon-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-demos.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-demos.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: pro-ribbon-client-user-service
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://peer1:9090/eureka/
+
+service-url:
+  order-service:  http://pro-ribbon-eureka-client-order-service

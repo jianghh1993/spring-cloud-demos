@@ -1,0 +1,18 @@
+
+
+spring:
+  profiles: peer1
+  application:
+    name: pro-ribbon-eureka-server
+server:
+  port: 9090
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: peer1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serveiceUrl:
+      defaultZone:  http://peer1:${server.port}/eureka/
