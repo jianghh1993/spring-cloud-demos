@@ -4,15 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.config</groupId>
-  <artifactId>config</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>config-remote</module>
-    </modules>
+  <groupId>com.hystrix</groupId>
+  <artifactId>hystrix</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-    <name>config</name>
+  <name>hystrix</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -25,23 +21,8 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-config-server</artifactId>
+      <artifactId>spring-cloud-commons</artifactId>
       <version>2.2.3.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-config-client</artifactId>
-      <version>2.2.3.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-      <version>2.3.2.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-bus-kafka</artifactId>
-      <version>2.2.2.RELEASE</version>
     </dependency>
   </dependencies>
 

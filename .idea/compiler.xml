@@ -6,40 +6,57 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pro-eureka-client" />
-        <module name="pro-ribbon-client-user-service" />
-        <module name="ribbon-order-service" />
+        <module name="ribbon" />
+        <module name="hystrix" />
+        <module name="pro-ribbon-eureka-server" />
+        <module name="user-service" />
+        <module name="pro-ribbon-eureka-client-order-service" />
+        <module name="config-remote-server" />
         <module name="pro-config-client" />
-        <module name="config" />
+        <module name="config-remote" />
+        <module name="pro-eureka-client" />
+        <module name="com-hystrix-resttemplate" />
+        <module name="config-eureka-server" />
+        <module name="pro-config-server" />
+        <module name="ribbon-order-service" />
+        <module name="pro-ribbon-client-user-service" />
         <module name="ribbon-user-service" />
         <module name="ribbon-eureka" />
-        <module name="pro-config-server" />
-        <module name="ribbon" />
-        <module name="pro-ribbon-eureka-client-order-service" />
         <module name="pro-eureka-server" />
-        <module name="pro-ribbon-eureka-server" />
+        <module name="config-remote-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config" target="1.7" />
-      <module name="eureka" target="1.7" />
+      <module name="com-hystrix-resttemplate" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-eureka-server" target="1.8" />
+      <module name="config-remote" target="1.7" />
+      <module name="config-remote-client" target="1.8" />
+      <module name="config-remote-server" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="hystrix" target="1.8" />
       <module name="pro-config-client" target="1.8" />
       <module name="pro-config-server" target="1.8" />
+      <module name="pro-eureka" target="1.8" />
       <module name="pro-eureka-client" target="1.8" />
       <module name="pro-eureka-server" target="1.8" />
       <module name="pro-ribbon-client-user-service" target="1.8" />
       <module name="pro-ribbon-eureka-client-order-service" target="1.8" />
       <module name="pro-ribbon-eureka-server" target="1.8" />
-      <module name="program-eureka" target="1.8" />
       <module name="program-eureka-server" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="ribbon-eureka" target="1.7" />
       <module name="ribbon-order-service" target="1.8" />
       <module name="ribbon-user-service" target="1.8" />
+      <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com-hystrix-resttemplate" options="-parameters" />
+      <module name="config-eureka-server" options="-parameters" />
+      <module name="config-remote-client" options="-parameters" />
+      <module name="config-remote-server" options="-parameters" />
       <module name="pro-config-client" options="-parameters" />
       <module name="pro-config-server" options="-parameters" />
       <module name="pro-eureka-client" options="-parameters" />
@@ -51,6 +68,7 @@
       <module name="ribbon" options="" />
       <module name="ribbon-order-service" options="-parameters" />
       <module name="ribbon-user-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>

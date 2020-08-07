@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/config/config-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-remote/config-remote-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-remote/config-remote-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/pro-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/pro-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/pro-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka/pro-eureka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka/pro-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix/com-hystrix-resttemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-client-user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-client-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-eureka/pro-ribbon-eureka-server/src/main/java" charset="UTF-8" />

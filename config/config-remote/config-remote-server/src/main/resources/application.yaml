@@ -1,0 +1,21 @@
+#应用程序端口
+server:
+  port: 9091
+
+spring:
+  cloud:
+    config:
+      server:
+        ##git仓库访问配置信息
+        git:
+          uri: https://github.com/jianghh1993/learning-springcloud-config
+          username: jianghh1993
+          password: qaz1993217
+          search-paths: config
+          default-label: master
+  ##srping.application.name 应用程序名称
+  application:
+    name: config-remote-server
+  ##srping.profiles.active 启用远程配置读取（remote表示远程读取配置，native本地读取配置）
+  profiles:
+    active: remote

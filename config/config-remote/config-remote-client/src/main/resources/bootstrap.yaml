@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9091
+      ##spring.cloud.config.fail-fast=true  开启失败快速响应
+      fail-fast: true
+  application:
+    name: config-remote-client
+  profiles:
+    active: dev
